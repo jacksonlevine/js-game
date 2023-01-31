@@ -21,7 +21,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'JS Game',
       template: './src/index.html',
-      inject: 'body'
+      inject: 'body',
+      minify: false
     })
   ],
   module: {
@@ -31,7 +32,7 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader'
-        ]
+        ],
       }
     ]
   }

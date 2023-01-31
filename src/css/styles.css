@@ -14,7 +14,7 @@ html {
   white-space: pre;
   font-size:90%;
   line-height:10px;
-  transform: scaleY(2) translateY(20%);
+  transform: scaleY(2) translateY(20%) translateX(-5px);
   z-index:-1;
   
 }

@@ -232,7 +232,7 @@ onload = function () {
   let overSpots = new Map();
   function stringBuild() {
     playheight = window.innerHeight / 24;
-    playwidth = window.innerWidth / 24;
+    playwidth = window.innerWidth / 20;
     var theString = "";
     mobSpots = new Map();
     statSpots = new Map();
@@ -267,7 +267,7 @@ onload = function () {
   }
 
   let miniMapX = 3;
-  let miniMapWidth = 11;
+  let miniMapWidth = 9;
   let miniMapY = miniMapWidth + 2;
   function oneCharStringBuild(i, j) {
     let theString = "";

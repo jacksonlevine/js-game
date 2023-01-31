@@ -28,12 +28,14 @@ html {
 
 #subcontainer {
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items: flex-start;
+  transform: translateY(-150px);
 }
 
 #container {
   display:flex;
+  flex-direction: column;
   justify-content: flex-start;
 }
 
@@ -76,8 +78,8 @@ html {
 
 #overlay {
   font-family:monospace;
-  transform:scaleY(.5) translateX(45px) translateY(-210%);
-  font-size:140%;
+  transform:scaleY(.5) translateX(45px) translateY(-225%);
+  font-size:100%;
   font-weight:bold;
   display:flex;
   flex-direction:column;
